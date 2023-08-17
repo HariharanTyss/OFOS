@@ -3,16 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestScript_OFOS.TC016_ViewAvailablelRestrauntFromRestrauntPage">
+      <class name="TestScript_OFOS.TC006_VerifyPriceOfDish_AfterOrder">
         <methods>
+          <include name="VerifyPrice" invocation-numbers="0"/>
           <include name="beforMethod"/>
           <include name="beforeSuit"/>
           <include name="afterSuite"/>
           <include name="CloseApp"/>
-          <include name="ViewAvailablelRestrauntFromRestrauntPage"/>
           <include name="browserSetup"/>
         </methods>
-      </class> <!-- TestScript_OFOS.TC016_ViewAvailablelRestrauntFromRestrauntPage -->
+      </class> <!-- TestScript_OFOS.TC006_VerifyPriceOfDish_AfterOrder -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -5,56 +5,68 @@
       <![CDATA[Browser window is maximized successfully]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-08-07T10:18:07 IST" name="Default suite" finished-at="2023-08-07T10:19:46 IST" duration-ms="99623">
+  <suite started-at="2023-08-08T09:43:43 IST" name="Default suite" finished-at="2023-08-08T09:44:16 IST" duration-ms="33513">
     <groups>
     </groups>
-    <test started-at="2023-08-07T10:18:07 IST" name="Default test" finished-at="2023-08-07T10:19:46 IST" duration-ms="99623">
-      <class name="TestScript_OFOS.TC016_ViewAvailablelRestrauntFromRestrauntPage">
-        <test-method is-config="true" signature="beforeSuit()[pri:0, instance:TestScript_OFOS.TC016_ViewAvailablelRestrauntFromRestrauntPage@52e6fdee]" started-at="2023-08-07T10:18:06 IST" name="beforeSuit" finished-at="2023-08-07T10:18:07 IST" duration-ms="722" status="PASS">
+    <test started-at="2023-08-08T09:43:43 IST" name="Default test" finished-at="2023-08-08T09:44:16 IST" duration-ms="33513">
+      <class name="TestScript_OFOS.TC006_VerifyPriceOfDish_AfterOrder">
+        <test-method is-config="true" signature="beforeSuit()[pri:0, instance:TestScript_OFOS.TC006_VerifyPriceOfDish_AfterOrder@158da8e]" started-at="2023-08-08T09:43:42 IST" name="beforeSuit" finished-at="2023-08-08T09:43:43 IST" duration-ms="719" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuit -->
-        <test-method is-config="true" signature="browserSetup()[pri:0, instance:TestScript_OFOS.TC016_ViewAvailablelRestrauntFromRestrauntPage@52e6fdee]" started-at="2023-08-07T10:18:07 IST" name="browserSetup" finished-at="2023-08-07T10:19:46 IST" duration-ms="99111" status="PASS">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:TestScript_OFOS.TC006_VerifyPriceOfDish_AfterOrder@158da8e]" started-at="2023-08-08T09:43:43 IST" name="browserSetup" finished-at="2023-08-08T09:43:47 IST" duration-ms="4446" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser window is maximized successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method is-config="true" signature="beforMethod(java.lang.reflect.Method)[pri:0, instance:TestScript_OFOS.TC016_ViewAvailablelRestrauntFromRestrauntPage@52e6fdee]" started-at="2023-08-07T10:19:46 IST" name="beforMethod" finished-at="2023-08-07T10:19:46 IST" duration-ms="25" status="PASS">
+        <test-method is-config="true" signature="beforMethod(java.lang.reflect.Method)[pri:0, instance:TestScript_OFOS.TC006_VerifyPriceOfDish_AfterOrder@158da8e]" started-at="2023-08-08T09:43:49 IST" name="beforMethod" finished-at="2023-08-08T09:43:49 IST" duration-ms="13" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void TestScript_OFOS.TC016_ViewAvailablelRestrauntFromRestrauntPage.ViewAvailablelRestrauntFromRestrauntPage() throws java.lang.Throwable]]>
+                <![CDATA[public void TestScript_OFOS.TC006_VerifyPriceOfDish_AfterOrder.VerifyPrice(java.lang.String,java.lang.String)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforMethod -->
-        <test-method signature="ViewAvailablelRestrauntFromRestrauntPage()[pri:0, instance:TestScript_OFOS.TC016_ViewAvailablelRestrauntFromRestrauntPage@52e6fdee]" started-at="2023-08-07T10:19:46 IST" name="ViewAvailablelRestrauntFromRestrauntPage" finished-at="2023-08-07T10:19:46 IST" duration-ms="154" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
+        <test-method signature="VerifyPrice(java.lang.String,java.lang.String)[pri:0, instance:TestScript_OFOS.TC006_VerifyPriceOfDish_AfterOrder@158da8e]" started-at="2023-08-08T09:43:49 IST" name="VerifyPrice" data-provider="logindata" finished-at="2023-08-08T09:44:16 IST" duration-ms="26513" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HariharanTyss]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hari2617@]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Yorkshire Lamb Patties')]/../../../../../div[2]/span"}
   (Session info: chrome=115.0.5790.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'HARRY', ip: '192.168.0.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.111, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\HPELIT~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59242}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ce132f53411f117bce58719a7c5e0b1b
-*** Element info: {Using=xpath, value=//a[contains(text(),'Login')]}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.111, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\HPELIT~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64678}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4439c94199488e41e668a9babc6282d4
+*** Element info: {Using=xpath, value=//a[contains(text(),'Yorkshire Lamb Patties')]/../../../../../div[2]/span}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Yorkshire Lamb Patties')]/../../../../../div[2]/span"}
   (Session info: chrome=115.0.5790.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'HARRY', ip: '192.168.0.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.111, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\HPELIT~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59242}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ce132f53411f117bce58719a7c5e0b1b
-*** Element info: {Using=xpath, value=//a[contains(text(),'Login')]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.111, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\HPELIT~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64678}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4439c94199488e41e668a9babc6282d4
+*** Element info: {Using=xpath, value=//a[contains(text(),'Yorkshire Lamb Patties')]/../../../../../div[2]/span}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -72,9 +84,9 @@ at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
-at generic.UtilityMethods.clickAction(UtilityMethods.java:66)
-at TestScript_OFOS.TC016_ViewAvailablelRestrauntFromRestrauntPage.ViewAvailablelRestrauntFromRestrauntPage(TC016_ViewAvailablelRestrauntFromRestrauntPage.java:29)
+at jdk.proxy2/jdk.proxy2.$Proxy16.getText(Unknown Source)
+at pom_scripts.DishesPage.getpriceOfFirstDish(DishesPage.java:44)
+at TestScript_OFOS.TC006_VerifyPriceOfDish_AfterOrder.VerifyPrice(TC006_VerifyPriceOfDish_AfterOrder.java:62)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -105,19 +117,19 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ViewAvailablelRestrauntFromRestrauntPage -->
-        <test-method is-config="true" signature="CloseApp()[pri:0, instance:TestScript_OFOS.TC016_ViewAvailablelRestrauntFromRestrauntPage@52e6fdee]" started-at="2023-08-07T10:19:46 IST" name="CloseApp" finished-at="2023-08-07T10:19:46 IST" duration-ms="140" status="PASS">
+        </test-method> <!-- VerifyPrice -->
+        <test-method is-config="true" signature="CloseApp()[pri:0, instance:TestScript_OFOS.TC006_VerifyPriceOfDish_AfterOrder@158da8e]" started-at="2023-08-08T09:44:16 IST" name="CloseApp" finished-at="2023-08-08T09:44:16 IST" duration-ms="432" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseApp -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:TestScript_OFOS.TC016_ViewAvailablelRestrauntFromRestrauntPage@52e6fdee]" started-at="2023-08-07T10:19:46 IST" name="afterSuite" finished-at="2023-08-07T10:19:47 IST" duration-ms="636" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:TestScript_OFOS.TC006_VerifyPriceOfDish_AfterOrder@158da8e]" started-at="2023-08-08T09:44:16 IST" name="afterSuite" finished-at="2023-08-08T09:44:17 IST" duration-ms="645" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- TestScript_OFOS.TC016_ViewAvailablelRestrauntFromRestrauntPage -->
+      </class> <!-- TestScript_OFOS.TC006_VerifyPriceOfDish_AfterOrder -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -59,7 +59,7 @@ public class TC006_VerifyPriceOfDish_AfterOrder extends Base_Test
 		
 		System.out.println(dp.getAddToCartButtonSecondDish());
 		
-		Assert.assertEquals(dp.getAddToCartButtonFirstDish(), "$14.00","Verifying price");
+		Assert.assertEquals(dp.getpriceOfFirstDish(), "$14.00","Verifying price");
 		
 		clickAction(dp.getCheckoutbutton());
 		test.log(LogStatus.PASS, "Clicking CheckoutButton is  Sucess");
